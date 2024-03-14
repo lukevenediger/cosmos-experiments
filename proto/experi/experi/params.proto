@@ -1,0 +1,15 @@
+syntax = "proto3";
+package experi.experi;
+
+import "amino/amino.proto";
+import "gogoproto/gogo.proto";
+
+option go_package = "experi/x/experi/types";
+
+// Params defines the parameters for the module.
+message Params {
+  option (amino.name) = "experi/x/experi/Params";
+  option (gogoproto.equal) = true;
+
+  
+}
