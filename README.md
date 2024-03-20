@@ -27,3 +27,17 @@ then use `make debug` to start the server in debug mode.
 
 If you're using VSCode, there's a debug configuration called "Debug Chain" that will attach
 to the running process.
+
+# Resources
+
+## App Chains to Learn From
+
+### Osmosis
+
+* Github: https://github.com/osmosis-labs/osmosis
+
+In particular:
+
+* Modular Makefiles for building, testing, builds for different platforms, and more
+ * Primary Makefile: https://github.com/osmosis-labs/osmosis/blob/main/Makefile
+ * Modular Makefiles: https://github.com/osmosis-labs/osmosis/tree/main/scripts/makefiles
